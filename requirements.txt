@@ -1,1 +1,8 @@
-streamlit==1.25.0
+streamlit==1.25.0       # Core package for building and running the Streamlit app
+pandas==2.0.3           # For data handling (mood logs, patient information)
+matplotlib==3.8.0       # For plotting trends (mood, sleep, etc.)
+numpy==1.23.5           # For numerical operations
+sqlite==3.39.4          # If using SQLite for database operations
+scikit-learn==1.3.0     # For machine learning models (if used for PPD risk detection)
+requests==2.31.0        # For handling HTTP requests (if calling external APIs)
+hashlib==20081119       # For password hashing (if using authentication)
